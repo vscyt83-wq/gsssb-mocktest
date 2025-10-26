@@ -1,0 +1,9 @@
+{
+  "name": "gsssb-mocktest",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node backend/server.js",
+    "start:dev": "cd backend; nodemon server.js"
+  }
+}

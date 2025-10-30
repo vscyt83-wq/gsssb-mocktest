@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "node backend/server.js",
-    "start:dev": "cd backend; nodemon server.js"
+    "build": "echo 'No build step'",
+    "start": "node server.js",
+    "start:dev": "nodemon server.js"
   }
 }
